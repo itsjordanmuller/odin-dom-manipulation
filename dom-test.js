@@ -31,3 +31,21 @@ blackBorder.appendChild(h1);
 blackBorder.appendChild(p1);
 
 container.appendChild(blackBorder)
+
+// const btn = document.querySelector('#btn');
+// btn.onclick = () => alert("Hello World");
+
+const btn = document.querySelector('#btn');
+function alertFunction() {
+    alert("YAY! YOU DID IT!");
+}
+
+// METHOD 2
+btn.onclick = alertFunction;
+
+// METHOD 3
+btn.addEventListener('click', alertFunction);
+
+btn.addEventListener('click', function (e) {
+    e.target.style.background = 'blue';
+});
