@@ -1,5 +1,7 @@
 # Odin DOM Manipulation
 
+This small project serves as a hands-on demonstration of fundamental concepts in JavaScript, particularly focusing on manipulating the Document Object Model (DOM).
+
 <a id="contact-section"></a>
 <details open>
 <summary align="center"><h2>📬 Contact Information</h2></summary>
